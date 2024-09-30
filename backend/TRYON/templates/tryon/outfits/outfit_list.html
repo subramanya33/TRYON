@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Outfit List</title>
+</head>
+<body>
+    <h1>Available Outfits</h1>
+    <ul>
+        {% for outfit in object_list %}
+            <li>{{ outfit.name }} <img src="{{ outfit.image.url }}" alt="{{ outfit.name }}" /></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
