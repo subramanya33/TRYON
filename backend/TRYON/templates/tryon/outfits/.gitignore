@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+
+# Node stuff:
+node_modules/
+
+# VS Code specific:
+.vscode/
+
+# macOS system files
+.DS_Store

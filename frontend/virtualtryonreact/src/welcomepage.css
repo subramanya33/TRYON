@@ -1,0 +1,47 @@
+/* src/WelcomePage.css */
+.welcome-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+}
+/* src/WelcomePage.css */
+.welcome-page {
+    text-align: center;
+    padding: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+.carousel img {
+    width: 300px; /* Adjust the size as needed */
+    margin: 10px;
+}
+
+.try-on-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.try-on-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+.nav-menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff; /* Bootstrap link color */
+}

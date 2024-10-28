@@ -1,16 +1,34 @@
-# Ignore virtual environments
-env/
-
-# Ignore Python cache files
-__pycache__/
-
-# Ignore Django migrations
+# Ignore Python bytecode files
 *.pyc
+
+# Ignore migrations folder
 */migrations/*
 
-# Ignore database files
+# Ignore SQLite database files
 *.sqlite3
 
-# Ignore IDE files (VS Code settings, etc.)
+# Ignore environment directories
+env/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore VS Code settings and workspace files
 .vscode/
 
+# Ignore node_modules directory (for React apps)
+node_modules/
+
+# Ignore build outputs (if applicable for React apps)
+build/
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore coverage files
+coverage/
